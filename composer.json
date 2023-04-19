@@ -1,0 +1,20 @@
+{
+    "name": "xiaobo/form-rule",
+    "description": "生成表单规则",
+    "type": "l",
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "authors": [
+        {
+            "name": "xiaobo",
+            "email": "zxc99369@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FormRule\\": "src/FormRule"
+        }
+    },
+    "minimum-stability": "dev"
+}
