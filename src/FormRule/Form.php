@@ -1,10 +1,12 @@
 <?php
+
 namespace FormRule;
 
 use FormRule\traits\CascaderFactoryTrait;
 use FormRule\traits\CheckBoxFactoryTrait;
 use FormRule\traits\ColorPickerFactoryTrait;
 use FormRule\traits\DatePickerFactoryTrait;
+use FormRule\traits\EditorFactoryTrait;
 use FormRule\traits\FrameFactoryTrait;
 use FormRule\traits\GroupFactoryTrait;
 use FormRule\traits\HiddenFactoryTrait;
@@ -43,7 +45,9 @@ abstract class Form
     use UploadFactoryTrait;
     use ValidateFactoryTrait;
     use GroupFactoryTrait;
-    
+
+    use EditorFactoryTrait;
+
     public static function elm_get_form(array $field, $title = '', $url = '', $jscallback = 2, $submitBtn = true)
     {
         $form = [
