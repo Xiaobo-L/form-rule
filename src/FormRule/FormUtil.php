@@ -12,7 +12,7 @@ class FormUtil
      */
     public static function logs($txt = '', $fileName = '')
     {
-        $root_path = dirname(dirname(__FILE__));
+        $root_path = root_path();
         $filePath = $root_path . '/runtime/uslog';
         $fileName = $filePath . '/' . $fileName . '-' . date('Y-m-d', time()) . '.log';
 
