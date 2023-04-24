@@ -2,7 +2,6 @@
 
 
 use FormRule\Form;
-use FormRule\FormUtil;
 
 require '../vendor/autoload.php';
 
@@ -25,4 +24,3 @@ $f[] = Form::uploadImage('avatar', '头像', '控制器');
 $f[] = Form::editor('fff', '测速', '1')->uploadImgServer('111')->uploadVideoServer('1111')->setConfig('aaa', '22');
 $from = Form::elm_get_form($f);
 
-exit(json_encode(FormUtil::jsonSuccess($from)));
