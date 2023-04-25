@@ -40,24 +40,24 @@ class Editor extends FormComponent
                 'undo',
                 'redo',
             ],
-            'uploadImgServer' => '',
+//            'uploadImgServer' => '',
             'uploadFileName' => 'file',
-            'showLinkImg' => false,
-            'uploadVideoServer' => '',
+//            'showLinkImg' => false,
+//            'uploadVideoServer' => '',
             'uploadVideoName' => 'file',
-            'showLinkVideo' => false
+//            'showLinkVideo' => false
         ]
     ];
 
 
     protected static $propsRule = [
         'config' => [
-            'uploadImgServer' => 'string',
+//            'uploadImgServer' => 'string',
             'uploadFileName' => 'string',
-            'showLinkImg' => 'string',
-            'uploadVideoServer' => 'string',
+//            'showLinkImg' => 'string',
+//            'uploadVideoServer' => 'string',
             'uploadVideoName' => 'string',
-            'showLinkVideo' => 'string'
+//            'showLinkVideo' => 'string'
         ],
 
     ];
