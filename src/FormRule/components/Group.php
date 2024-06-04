@@ -18,8 +18,8 @@ class Group extends FormComponent
     protected $defaultValue = [];
 
     protected static $propsRule = [
-        'min' => 'string',
-        'max' => 'string',
+        'min' => 'int',
+        'max' => 'int',
         'disabled' => 'int',
     ];
 
